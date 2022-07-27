@@ -1,0 +1,60 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - react-native > @react-native-community/cli > @react-native-community/cli-plugin-metro > metro > @babel/types > lodash:
+        patched: '2022-07-27T21:27:56.181Z'
+    - react-native > @react-native-community/cli > @react-native-community/cli-plugin-metro > metro > async > lodash:
+        patched: '2022-07-27T21:27:56.181Z'
+    - react-native > @react-native-community/cli > @react-native-community/cli-plugin-metro > metro > @babel/template > @babel/types > lodash:
+        patched: '2022-07-27T21:27:56.181Z'
+    - react-native > @react-native-community/cli > @react-native-community/cli-plugin-metro > metro > metro-source-map > @babel/types > lodash:
+        patched: '2022-07-27T21:27:56.181Z'
+    - react-native > @react-native-community/cli > @react-native-community/cli-plugin-metro > metro-react-native-babel-transformer > metro-source-map > @babel/types > lodash:
+        patched: '2022-07-27T21:27:56.181Z'
+    - react-native > @react-native-community/cli > @react-native-community/cli-plugin-metro > metro-config > metro > @babel/types > lodash:
+        patched: '2022-07-27T21:27:56.181Z'
+    - react-native > @react-native-community/cli > @react-native-community/cli-plugin-metro > metro > metro-transform-worker > @babel/types > lodash:
+        patched: '2022-07-27T21:27:56.181Z'
+    - react-native > @react-native-community/cli > @react-native-community/cli-plugin-metro > metro-config > metro > async > lodash:
+        patched: '2022-07-27T21:27:56.181Z'
+    - react-native > @react-native-community/cli > @react-native-community/cli-plugin-metro > metro-config > metro > @babel/template > @babel/types > lodash:
+        patched: '2022-07-27T21:27:56.181Z'
+    - react-native > @react-native-community/cli > @react-native-community/cli-plugin-metro > metro > metro-react-native-babel-preset > @babel/template > @babel/types > lodash:
+        patched: '2022-07-27T21:27:56.181Z'
+    - react-native > @react-native-community/cli > @react-native-community/cli-plugin-metro > metro-react-native-babel-transformer > metro-react-native-babel-preset > @babel/template > @babel/types > lodash:
+        patched: '2022-07-27T21:27:56.181Z'
+    - react-native > @react-native-community/cli > @react-native-community/cli-plugin-metro > metro > metro-transform-plugins > @babel/template > @babel/types > lodash:
+        patched: '2022-07-27T21:27:56.181Z'
+    - react-native > @react-native-community/cli > @react-native-community/cli-plugin-metro > metro > metro-babel-transformer > metro-source-map > @babel/types > lodash:
+        patched: '2022-07-27T21:27:56.181Z'
+    - react-native > @react-native-community/cli > @react-native-community/cli-plugin-metro > metro-react-native-babel-transformer > metro-babel-transformer > metro-source-map > @babel/types > lodash:
+        patched: '2022-07-27T21:27:56.181Z'
+    - react-native > @react-native-community/cli > @react-native-community/cli-plugin-metro > metro-config > metro > metro-source-map > @babel/types > lodash:
+        patched: '2022-07-27T21:27:56.181Z'
+    - react-native > @react-native-community/cli > @react-native-community/cli-plugin-metro > metro > metro-transform-worker > metro-source-map > @babel/types > lodash:
+        patched: '2022-07-27T21:27:56.181Z'
+    - react-native > @react-native-community/cli > @react-native-community/cli-plugin-metro > metro > metro-symbolicate > metro-source-map > @babel/types > lodash:
+        patched: '2022-07-27T21:27:56.181Z'
+    - react-native > @react-native-community/cli > @react-native-community/cli-plugin-metro > metro-config > metro > metro-transform-worker > @babel/types > lodash:
+        patched: '2022-07-27T21:27:56.181Z'
+    - react-native > @react-native-community/cli > @react-native-community/cli-plugin-metro > metro-config > metro > metro-react-native-babel-preset > @babel/template > @babel/types > lodash:
+        patched: '2022-07-27T21:27:56.181Z'
+    - react-native > @react-native-community/cli > @react-native-community/cli-plugin-metro > metro-config > metro > metro-transform-plugins > @babel/template > @babel/types > lodash:
+        patched: '2022-07-27T21:27:56.181Z'
+    - react-native > @react-native-community/cli > @react-native-community/cli-plugin-metro > metro > metro-transform-worker > metro-transform-plugins > @babel/template > @babel/types > lodash:
+        patched: '2022-07-27T21:27:56.181Z'
+    - react-native > @react-native-community/cli > @react-native-community/cli-plugin-metro > metro-config > metro > metro-babel-transformer > metro-source-map > @babel/types > lodash:
+        patched: '2022-07-27T21:27:56.181Z'
+    - react-native > @react-native-community/cli > @react-native-community/cli-plugin-metro > metro > metro-transform-worker > metro-babel-transformer > metro-source-map > @babel/types > lodash:
+        patched: '2022-07-27T21:27:56.181Z'
+    - react-native > @react-native-community/cli > @react-native-community/cli-plugin-metro > metro-config > metro > metro-transform-worker > metro-source-map > @babel/types > lodash:
+        patched: '2022-07-27T21:27:56.181Z'
+    - react-native > @react-native-community/cli > @react-native-community/cli-plugin-metro > metro-config > metro > metro-symbolicate > metro-source-map > @babel/types > lodash:
+        patched: '2022-07-27T21:27:56.181Z'
+    - react-native > @react-native-community/cli > @react-native-community/cli-plugin-metro > metro-config > metro > metro-transform-worker > metro-transform-plugins > @babel/template > @babel/types > lodash:
+        patched: '2022-07-27T21:27:56.181Z'
+    - react-native > @react-native-community/cli > @react-native-community/cli-plugin-metro > metro-config > metro > metro-transform-worker > metro-babel-transformer > metro-source-map > @babel/types > lodash:
+        patched: '2022-07-27T21:27:56.181Z'
