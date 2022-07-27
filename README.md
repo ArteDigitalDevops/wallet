@@ -1,6 +1,5 @@
 # React Native Ethereum Wallet
 
-
 ![test](https://i.imgur.com/J16xiRy.png)
 
 ### Installation 
